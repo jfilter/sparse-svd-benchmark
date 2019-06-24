@@ -1,11 +1,11 @@
-# Sparse SVD Benchmark (Python)
+# Sparse Truncated SVD Benchmark (Python)
 
 
 Key findings:
 
 * [sparsesvd](https://pypi.org/project/sparsesvd/) is really slow and thus was not considered for the graphs
-* There is almost not differnce between the implementation of truncated (randomized) SVD with [Gensim SVD](https://radimrehurek.com/gensim/models/lsimodel.html#gensim.models.lsimodel.stochastic_svd) and [Scikit-Learn SVD](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.TruncatedSVD.html)
-* MKL is faster than OpenBlas for the truncated SVD (not clearly vissible in the graphs, sorry for this)
+* There is almost not differnce between the implementation of randomized SVD with [Gensim SVD](https://radimrehurek.com/gensim/models/lsimodel.html#gensim.models.lsimodel.stochastic_svd) and [Scikit-Learn SVD](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.TruncatedSVD.html)
+* MKL is faster than OpenBlas for the randomized SVD (not clearly vissible in the graphs, sorry for this)
 * Truncated is faster as the problem gets more difficult
 
 ## Setup
