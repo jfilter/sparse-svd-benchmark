@@ -10,7 +10,7 @@ Key findings:
 
 ## Setup
 
-Done on i3 8100, Python 3.6, Ubuntu 18.04, average of 5 runs, with the recent person of OpenBlas and MKL as of 18th June 2019.
+Done on i3 8100, Python 3.6, Ubuntu 18.04, average of 5 runs, with the recent version of OpenBlas and MKL as of 18th June 2019.
 
 Check out the accompanying [notebook](benchmark_svd.ipynb).
 
